@@ -9,9 +9,9 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
-  featureImage: '/uploads/home-hero.jpg',
+  siteName: 'Línea Base Digital',
+  tagline: 'Agricultura Inteligente',
+  featureImage: '/uploads/MainBackground.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
     on: true,
@@ -19,26 +19,16 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
+      name: 'Mision',
       link: '/about'
     },
     {
-      name: 'Contact',
+      name: 'Contacto',
       link: '/contact'
     },
     {
-      name: 'Categories',
+      name: 'Categorias',
       link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
-      target: '_blank'
-    },
-    {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
-      target: '_blank'
     }
   ],
   hero: {
